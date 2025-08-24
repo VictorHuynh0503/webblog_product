@@ -1,0 +1,38 @@
+{
+  "name": "website-blog-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@supabase/supabase-js": "^2.56.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tanstack/react-query": "^5.85.5",
+    "@tiptap/extension-code-block-lowlight": "^3.2.2",
+    "@tiptap/extension-image": "^3.2.2",
+    "@tiptap/pm": "^3.2.2",
+    "@tiptap/react": "^3.2.2",
+    "@tiptap/starter-kit": "^3.2.2",
+    "@uiw/react-md-editor": "^4.0.8",
+    "axios": "^1.3.0",
+    "lowlight": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "recharts": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.0"
+  }
+}
